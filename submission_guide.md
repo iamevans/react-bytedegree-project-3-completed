@@ -8,7 +8,7 @@
 ![](./guide-images/clone.png)
 
 ```
-$ git clone --bare https://github.com/Fastcampus-Programming/react-bytedegree-project-1.git
+$ git clone --bare https://github.com/Fastcampus-Programming/react-bytedegree-project-3.git
 ```
 
 2. 자신의 github에 과제를 업로드할 repository를 새롭게 생성합니다. 이때, 공개여부를 Private으로 설정합니다.  
@@ -20,7 +20,7 @@ $ git clone --bare https://github.com/Fastcampus-Programming/react-bytedegree-pr
 ![](./guide-images/setting-repo.png)
 
 ```
-$ cd react-bytedegree-project-1.git
+$ cd react-bytedegree-project-3.git
 $ git push --mirror https://github.com/${수강생본인계정}/${본인과제-레포}.git
 ```
 
@@ -28,7 +28,7 @@ $ git push --mirror https://github.com/${수강생본인계정}/${본인과제-�
 
 ```
 $ cd ..
-$ rm -rf react-bytedegree-project-1.git
+$ rm -rf react-bytedegree-project-3.git
 $ git clone https://github.com/수강생본인계정/본인과제-레포.git
 ```
 
